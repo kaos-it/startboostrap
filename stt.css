@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    height: 60px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+.nav2{
+    display: flex;
+    gap: 10px;
+}
+.nav3{
+    text-decoration: none;
+    color: rgb(105, 105, 105);
+}
+.nav3:hover{
+    color: rgb(57, 57, 57);
+}
+.iki{
+    width: 100%;
+    background-color: aqua;
+    height: 650px;
+    display: flex;
+}
+
+.iki1{
+    width: 50%;
+    height: 650px;
+    background-color: rgb(255, 255, 255);
+}
+.iki2{
+    width: 50%;
+    height: 650px;
+    background-color: rgb(255, 255, 255);
+}
+
+.btn1{
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    width: 140px;
+    height: 50px;
+    position: relative; top: 30px;
+    border: 0px;
+}
+
+.yazilar{
+    background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn1:hover{
+    background-color: rgb(2, 2, 174);
+}
+
+.btn2{
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(71, 71, 71);
+    width: 140px;
+    height: 50px;
+    position: relative; top: 30px; left: 30px;
+    border: 2px solid rgb(71, 71, 71) ;
+}
+ 
+.btn2:hover{
+    background-color: rgb(21, 21, 21);
+    color: white;
+}
+.uc{
+   
+    height: 350px;
+    width: 100%;
+    background-color: rgb(241, 255, 255);
+}
+.i{
+    color: black;
+}
